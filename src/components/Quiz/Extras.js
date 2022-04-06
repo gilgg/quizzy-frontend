@@ -38,7 +38,6 @@ const Extras = ({ currentQuestion, setIs5050 }) => {
       name: username,
       score,
       numberOfCorrectAnswers,
-      avgAnswerTime: "00:0000",
     };
 
     // we save the user's stats in the database

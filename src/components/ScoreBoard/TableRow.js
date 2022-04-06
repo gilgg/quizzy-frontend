@@ -12,7 +12,6 @@ const TableRow = ({ username, index, activeRow, setActiveRow }) => {
       <td className="td-name">{username.name}</td>
       <td>{username.score}</td>
       <td>{username.numberOfCorrectAnswers}</td>
-      <td>{username.avgAnswerTime}</td>
     </tr>
   );
 };

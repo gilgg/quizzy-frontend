@@ -9,7 +9,6 @@ const TableHeader = () => {
         <HeaderItem field="Name" />
         <HeaderItem field="Score" />
         <HeaderItem field="# Correct Answers" />
-        <HeaderItem field="Avg. Answer Time" />
       </tr>
     </thead>
   );

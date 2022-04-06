@@ -144,14 +144,13 @@ const isQuizCompleted = (
   numberOfCorrectAnswers,
   currentQuestion
 ) => {
-  const NUM_OF_QUESTIONS = 15;
+  const NUM_OF_QUESTIONS = 3;
 
   // in case the quiz is complete, a new user is created in order to be saved in the db
   const newUser = {
     name: username,
     score,
     numberOfCorrectAnswers,
-    avgAnswerTime: "00:0000",
   };
 
   if (NUM_OF_QUESTIONS === currentQuestion.question_number) {

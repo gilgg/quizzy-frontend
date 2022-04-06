@@ -1,4 +1,4 @@
-![Charts Banner](https://i.ibb.co/YTGVp40/charts-banner.png)
+![Quizzy Banner](https://i.ibb.co/YTGVp40/charts-banner.png)
 
 # Contents
 
@@ -11,11 +11,13 @@
 
 # Overview 👋
 
-Charts app lets you see charts and add types.  
+Quizzy is a game quiz.
+You have to answer 15 questions in 30 seconds each.
+If you are able to answer at least 12 correctly then you win. 
 
-> **You can take a look at the backend repo [here](https://github.com/gilgg/charts-backend)**
+> **You can take a look at the backend repo [here](https://github.com/gilgg/quizzy-backend)**
 
-> **Go to [Website](https://gil-charts.netlify.app/)**
+> **Go to [Website](https://gil-quizzy.netlify.app/)**
 
 <br />
 
@@ -34,11 +36,11 @@ Charts app lets you see charts and add types.
 
 # Screenshots 🎮
 
-![Charts Main](https://i.ibb.co/DzNQ4vM/charts-1.png)
+![Quizzy Main](https://i.ibb.co/DzNQ4vM/charts-1.png)
 
 <br />
 
-![Charts Add ](https://i.ibb.co/fXTZ69X/charts-2.png)
+![Quizzy Add ](https://i.ibb.co/fXTZ69X/charts-2.png)
 
 <br />
 
