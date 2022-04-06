@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  padding: 7rem 22rem;
+  background: #0c0d20;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  // z-index: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff;
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

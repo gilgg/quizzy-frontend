@@ -1,0 +1,31 @@
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10rem;
+
+  &-btn {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &.active {
+      cursor: auto;
+      transform: scale(1);
+    }
+
+    &.correct.active {
+      background-color: #01ff5f;
+      filter: drop-shadow(0 0 50px #01ff5f);
+    }
+
+    &.incorrect.active {
+      background-color: #ff0087;
+      filter: drop-shadow(0 0 50px #ff0087);
+    }
+  }
+}

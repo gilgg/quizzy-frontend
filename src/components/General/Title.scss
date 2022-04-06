@@ -1,0 +1,38 @@
+@import "../../sass/fonts";
+
+.title {
+  text-align: center;
+  letter-spacing: 2px;
+
+  span {
+    font-family: $neon2;
+    font-weight: 400;
+    font-size: 8.4rem;
+    text-align: center;
+    text-shadow: 0 0 30px rgb(255 255 255 / 60%),
+      0 0 60px rgb(255 255 255 / 45%), 0 0 110px rgb(255 255 255 / 25%),
+      0 0 100px rgb(255 255 255 / 10%);
+  }
+
+  &:hover {
+    animation: spacing 0.7s ease-in-out both;
+  }
+}
+
+@keyframes spacing {
+  0% {
+    letter-spacing: 2px;
+  }
+  25% {
+    letter-spacing: 4px;
+  }
+  50% {
+    letter-spacing: 8px;
+  }
+  75% {
+    letter-spacing: 4px;
+  }
+  100% {
+    letter-spacing: 2px;
+  }
+}

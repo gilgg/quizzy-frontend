@@ -1,0 +1,27 @@
+@import "./sass/fonts";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+#root,
+html,
+body {
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  padding: 1rem 2rem;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+}

@@ -1,0 +1,29 @@
+.table-row {
+  padding: 2rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #222;
+  border-bottom: 1px solid #0c0d20;
+
+  &.active {
+    color: #fff;
+    background-color: rgb(36, 93, 218) !important;
+  }
+
+  &:nth-of-type(odd) {
+    background-color: rgb(163, 183, 224);
+  }
+
+  &:nth-of-type(even) {
+    background-color: rgb(103, 124, 170);
+  }
+
+  td {
+    padding: 1.3rem 1.5rem;
+    text-align: center;
+  }
+
+  .td-name {
+    text-align: left;
+  }
+}
