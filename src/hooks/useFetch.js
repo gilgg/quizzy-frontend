@@ -22,8 +22,7 @@ const useFetch = (startAgain, setStartAgain) => {
             question_number: index + 1,
           };
         })
-        .slice(0, 3);
-      console.log(questions);
+        .slice(0, 15);
 
       dispatch({ type: "INIT", questions });
     };

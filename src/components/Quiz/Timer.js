@@ -12,7 +12,7 @@ const Timer = () => {
   const numberOfCorrectAnswers = useSelector(
     (state) => state.numberOfCorrectAnswers
   );
-  const [secondsLeft, setSecondsLeft] = useState(5);
+  const [secondsLeft, setSecondsLeft] = useState(30);
   const [timerOn, setTimerOn] = useState(false);
   let interval = null;
 
@@ -43,7 +43,7 @@ const Timer = () => {
       clearInterval(interval);
     } else {
       // intialize the timer when the user is in new question
-      setSecondsLeft(5);
+      setSecondsLeft(30);
     }
   }, [currentQuestion]);
 

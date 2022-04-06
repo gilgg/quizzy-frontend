@@ -1,4 +1,4 @@
-![Quizzy Banner](https://i.ibb.co/YTGVp40/charts-banner.png)
+![Quizzy Banner](https://i.ibb.co/JRKTx1m/quizzy-banner.png)
 
 # Contents
 
@@ -13,7 +13,7 @@
 
 Quizzy is a game quiz.
 You have to answer 15 questions in 30 seconds each.
-If you are able to answer at least 12 correctly then you win. 
+If you are able to answer at least 12 correctly then you win.
 
 > **You can take a look at the backend repo [here](https://github.com/gilgg/quizzy-backend)**
 
@@ -36,14 +36,34 @@ If you are able to answer at least 12 correctly then you win.
 
 # Screenshots 🎮
 
-![Quizzy Main](https://i.ibb.co/DzNQ4vM/charts-1.png)
+![Quizzy Welcome](https://i.ibb.co/wBcJ7y5/quizzy-1.png)
 
 <br />
 
-![Quizzy Add ](https://i.ibb.co/fXTZ69X/charts-2.png)
+![Quizzy Game](https://i.ibb.co/6Prf8S1/quizzy-2.png)
+
+<br />
+
+![Quizzy Game Answered](https://i.ibb.co/5XHyhVr/quizzy-3.png)
+
+<br />
+
+![Quizzy Game 50-50](https://i.ibb.co/JyCF5RL/quizzy-4.png)
+
+<br />
+
+![Quizzy Game Over](https://i.ibb.co/NmSPhcF/quizzy-5.png)
+
+<br />
+
+![Quizzy Game Win](https://i.ibb.co/QvgMjTC/quizzy-6.png)
+
+<br />
+
+![Quizzy Scoreboard](https://i.ibb.co/4MvYdDP/quizzy-7.png)
 
 <br />
 
 # Video 🎥
 
-https://user-images.githubusercontent.com/96532357/160309396-f19003f7-ce58-411b-8a94-aae5de4c8031.mp4
+https://user-images.githubusercontent.com/96532357/162079498-9a1423ae-7f94-42d2-b586-ae22b7966979.mp4
